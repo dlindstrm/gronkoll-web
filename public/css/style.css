@@ -51,6 +51,10 @@ body {
 	background-color: #2b2a2a;
 	color: #fff;
 }
+.container.footer {
+	background:#0d0d0d;
+	color: #fff;
+}
 
 .two-col {
 	padding:15px 0;
@@ -62,11 +66,13 @@ body {
 	float: left;
 	width: 50%;
 }
-.col .padding-right {
+.col > .right {
 	padding-right: 20px;
+	text-align: right;
 }
-.col .padding-left {
+.col > .left {
 	padding-left: 20px;
+	text-align: left;
 }
 
 /**
@@ -79,12 +85,11 @@ body {
 .highlight {
 	padding: 20px 0;
 	font-size: 1.3em;
-	text-align: left;
+	text-align: center;
 }
 img {
 	max-width: 100%;
 }
-
 /**
  * Fonts
  */
@@ -102,7 +107,6 @@ h2, h3, h4 {
  * Header
  */
 .header {
-	padding: 30px 10px;
     text-align: center;
 }
 .container.header .inside {
@@ -128,12 +132,7 @@ h2, h3, h4 {
  */
 .col .img {
 	max-width:200px;
-}
-.col .img.left {
-	margin-left: auto;
-}
-.col .img.right {
-	margin-right: auto;
+	display:inline-block;
 }
 .container.screen h2 {
 	color: #30d69b;
