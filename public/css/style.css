@@ -1,0 +1,71 @@
+html {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', arial, sans-serif;
+	color:#222;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 100%;
+	text-align: center;
+}
+
+.container .logo h1{
+
+}
+
+.container.green {
+	background-color: #30d69b;
+	color: #fff;
+}
+
+.container.grey {
+	background-color: #ebebeb;
+	color: #222;
+}
+
+.container.start {
+	width: 100%;
+
+	background-color: #30D69B;
+	background-image: linear-gradient(bottom, #ebebeb 50%, #30D69B 50%);
+	background-image: -o-linear-gradient(bottom, #ebebeb 50%, #30D69B 50%);
+	background-image: -moz-linear-gradient(bottom, #ebebeb 50%, #30D69B 50%);
+	background-image: -webkit-linear-gradient(bottom, #ebebeb 50%, #30D69B 50%);
+	background-image: -ms-linear-gradient(bottom, #ebebeb 50%, #30D69B 50%);
+}
+
+.container .img {
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+.container .img img{
+	width: 100%;
+}
+
+.container.screens .img{
+	width: 50%;
+}
+
+
+.container.screens .img {
+	margin: 0 auto;
+	max-width: 200px;
+}
+
+.container.screens {
+	width: 100%;
+	background-color: #30D69B;
+	background-image: linear-gradient(bottom, #222 50%, #ebebeb 50%);
+	background-image: -o-linear-gradient(bottom, #222 50%, #ebebeb 50%);
+	background-image: -moz-linear-gradient(bottom, #222 50%, #ebebeb 50%);
+	background-image: -webkit-linear-gradient(bottom, #222 50%, #ebebeb 50%);
+	background-image: -ms-linear-gradient(bottom, #222 50%, #ebebeb 50%);
+}
