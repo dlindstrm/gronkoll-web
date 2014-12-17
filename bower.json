@@ -1,0 +1,20 @@
+{
+  "name": "gronkoll-web",
+  "version": "0.0.1",
+  "homepage": "https://github.com/dlindstrm/gronkoll-web",
+  "authors": [
+    "Johan Kasperi <johan@kasperi.se> and Daniel Lindström <daniel@lindstrm.se>"
+  ],
+  "description": "Website for the Grönkoll app",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.2"
+  }
+}
