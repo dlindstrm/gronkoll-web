@@ -4,19 +4,9 @@ html {
 	font-family: 'nimbus-sans-condensed', Arial, sans-serif;
 	line-height: 1.7em;
 	font-size:112.5%;
-	color:#222;
+	color:#2b2a2a;
 	-webkit-font-smoothing: antialiased;
 	text-align: left;
-}
-@media all and (min-width:560px) {
-	html {
-		font-size: 137.5%;
-	}
-}
-@media all and (min-width:960px) {
-	html {
-		font-size: 150%;
-	}
 }
 body {
 	margin: 0;
@@ -31,13 +21,7 @@ body {
 	width: 100%;
 }
 .container .inside {
-	padding: 90px 10px;
-}
-.container.padding-top {
-	padding-top: 50px;
-}
-.container.padding-bottom {
-	padding-bottom: 50px;
+	padding: 40px 10px;
 }
 .container.green {
 	background-color: #30d69b;
@@ -62,22 +46,11 @@ body {
 }
 
 .two-col {
-	padding:15px 0;
+	padding: 15px 0;
 	overflow: hidden;
 	max-width: 960px;
 	margin: 0 auto;
-}
-.two-col .col {
-	float: left;
-	width: 50%;
-}
-.col > .right {
-	padding-right: 20px;
-	text-align: right;
-}
-.col > .left {
-	padding-left: 20px;
-	text-align: left;
+	text-align: center;
 }
 
 /**
@@ -109,9 +82,6 @@ h1 {
 }
 h2, h3, h4 {
 	font-weight: normal;
-}
-.container h2 {
-	color: #30d69b;
 }
 
 /**
@@ -155,6 +125,51 @@ a:focus {
  * Articles
  */
 .col .img {
-	max-width:200px;
+	max-width: 200px;
 	display:inline-block;
+}
+
+/**
+ * Media queries
+ */
+@media all and (min-width:569px) and (max-width:769px) {
+	html {
+		font-size: 137.5%;
+	}
+	.container .inside {
+		padding: 75px 30px;
+	}
+	.two-col .col {
+		float: left;
+		width: 50%;
+	}
+	.col > .right {
+		padding-right: 20px;
+		text-align: right;
+	}
+	.col > .left {
+		padding-left: 20px;
+		text-align: left;
+	}
+
+}
+@media all and (min-width:770px) {
+	html {
+		font-size: 150%;
+	}
+	.container .inside {
+		padding: 90px 30px;
+	}
+	.two-col .col {
+		float: left;
+		width: 50%;
+	}
+	.col > .right {
+		padding-right: 20px;
+		text-align: right;
+	}
+	.col > .left {
+		padding-left: 20px;
+		text-align: left;
+	}
 }
