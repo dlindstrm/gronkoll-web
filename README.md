@@ -1,4 +1,4 @@
 gronkoll-web
 ============
 
-Grönkoll website
+Small website for Grönkoll (https://github.com/dlindstrm/foodscanner).
