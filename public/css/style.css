@@ -21,7 +21,7 @@ body {
 	width: 100%;
 }
 .container .inside {
-	padding: 40px 10px;
+	padding: 40px 20px;
 }
 .container.green {
 	background-color: #30d69b;
@@ -31,7 +31,9 @@ body {
 .container.grey {
 	background-color: #ebebeb;
 }
-
+.container.info {
+	padding-bottom: 40px;
+}
 .container.start {
 	background-color: #30D69B;
 	background-image: linear-gradient(bottom, #ebebeb 50%, #30D69B 50%);
@@ -137,11 +139,14 @@ a:focus {
 		font-size: 137.5%;
 	}
 	.container .inside {
-		padding: 75px 30px;
+		padding: 60px 30px;
 	}
 	.two-col .col {
 		float: left;
 		width: 50%;
+	}
+	.two-col.reverse .col {
+		float: right;
 	}
 	.col > .right {
 		padding-right: 20px;
@@ -163,6 +168,9 @@ a:focus {
 	.two-col .col {
 		float: left;
 		width: 50%;
+	}
+	.two-col.reverse .col {
+		float: right;
 	}
 	.col > .right {
 		padding-right: 20px;
